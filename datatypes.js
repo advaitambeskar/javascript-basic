@@ -16,3 +16,15 @@ console.log('Answer : ' + c); //output = 76
 b = parseInt(b, 10);
 c = a + b;
 console.log('Answer : ' + c);
+
+let q = 3; 
+let w = 2;
+let e = q + w;
+
+/*
+ * 1. let e ... variable declaration
+ * 2. perform evaluation q + w
+ * 3. assign the result evaluated to e 
+ */
+
+ 

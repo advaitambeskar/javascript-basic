@@ -29,8 +29,12 @@ let e = q + w;
 
 /*
  * Assignment =
- * Arithmetic + - * /
+ * Arithmetic + - * / %
  * Increment ++
  * Decrement --
- *  
+ * Function invocation operators ()
+ * Logical 'and' &&
+ * Logical 'or'  ||
+ * Member Accessor Operator .
  */
+

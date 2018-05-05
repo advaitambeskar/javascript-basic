@@ -36,5 +36,22 @@ let e = q + w;
  * Logical 'and' &&
  * Logical 'or'  ||
  * Member Accessor Operator .
+ * Array Element Access []
+ * Code Block Operator {}
  */
 
+// Array is a variable that holds a large volume of values
+
+let a1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+let b1 = ['a', 'whatever', '22ss', 'mike'];
+console.log(a1[2]);
+console.log(a1);
+console.log(b1);
+
+a1[0] = 7;
+
+// Javascript allows arrays to have dissimilar datatypes. This is amazing?!
+
+a1[2] = "whatup"
+
+console.log(a1);

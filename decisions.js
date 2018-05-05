@@ -9,8 +9,10 @@ if (/* expression is true */ count == 4){
 }
 }while(count < 10);
 
-let hero = "superman";
-switch(hero){
+// switch
+
+let hero = "SUPERMAN";
+switch(hero.toLowerCase()){
     case 'superman':
     console.log(hero + ' has');
     console.log('\tsuper strength');
@@ -27,3 +29,12 @@ switch(hero){
     break;
 
 }
+
+//ternary operations
+
+let x = 234, y = '234';
+let result = (x === y) ? 'equal' : 'not equal'; // '==' : equality;
+// '===' : strict equality (equal with same datatypes)
+// '!=' : not equal
+// !== : strict not equal
+console.log(result);

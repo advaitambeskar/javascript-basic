@@ -27,4 +27,10 @@ let e = q + w;
  * 3. assign the result evaluated to e 
  */
 
- 
+/*
+ * Assignment =
+ * Arithmetic + - * /
+ * Increment ++
+ * Decrement --
+ *  
+ */

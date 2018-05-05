@@ -52,6 +52,18 @@ a1[0] = 7;
 
 // Javascript allows arrays to have dissimilar datatypes. This is amazing?!
 
-a1[2] = "whatup"
+a1[2] = "whatup";
 
+console.log(a1);
+
+console.log(a1.length); // actual number and does not start the count from 0
+/*
+ * a1[20] = 'whatevers';
+ * console.log(a1); //shows that there are 10 empty values which is not proper
+ */
+a1.push(77); //add elements to the last position
+console.log(a1);
+a1.pop(); //remove the last element
+a1.pop();
+a1.pop();
 console.log(a1);
